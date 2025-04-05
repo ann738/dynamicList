@@ -14,7 +14,7 @@ A simple React application that allows users to dynamically add items to a list.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/dynamic-list-manager.git
+   git clone https://github.com/raphachegeke/dynamic-list-manager.git
    cd dynamic-list-manager
 
 2. Install dependencies:
