@@ -1,4 +1,3 @@
-/* Base Styles */
 body {
   margin: 0;
   padding: 0;
@@ -16,7 +15,7 @@ body {
   box-sizing: border-box;
 }
 
-/* Main Container */
+
 .list-manager {
   width: 100%;
   max-width: 480px;
@@ -31,12 +30,11 @@ body {
 .list-manager h1 {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #1e293b;
+  color: #14B8A6;
   padding: 20px 20px 0;
   margin: 0 0 16px 0;
 }
 
-/* Input Group */
 .input-group {
   display: flex;
   padding: 0 20px 20px;
@@ -45,7 +43,7 @@ body {
 .styled-input {
   flex: 1;
   padding: 10px 14px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #14B8A6;
   border-radius: 8px;
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
@@ -75,13 +73,12 @@ body {
 }
 
 .styled-button:hover {
-  background-color: #2563eb;
+  background-color: #14B8A6;
 }
 
-/* List Container */
 .list-container {
   border-top: 1px solid #f1f5f9;
-  background-color: #f8fafc;
+  background-color: #14B8A6;
   padding: 16px 20px;
 }
 
@@ -92,6 +89,15 @@ body {
   background: white;
   border-radius: 8px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.list-item:hover {
+	background-color: #14B8A6;
+	color: white;
+}
+
+.list-item:hover .bullet{
+	color:black;
 }
 
 .list-item {

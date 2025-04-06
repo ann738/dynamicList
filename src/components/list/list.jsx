@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './DynamicListManager.css';
+import './list.css';
 
 function DynamicListManager() {
   const [items, setItems] = useState([]);
@@ -41,7 +41,7 @@ function DynamicListManager() {
           <ul className="item-list">
             {items.map((item, index) => (
               <li key={index} className="list-item">
-                <span className="bullet">-</span> {item}
+                <span className="bullet">*</span> {item}
               </li>
             ))}
           </ul>
