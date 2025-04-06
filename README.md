@@ -1,49 +1,23 @@
 # Dynamic List Manager
 
-Live Demo: [https://dynamic-list-alpha.vercel.app/](https://dynamic-list-alpha.vercel.app/)
-
 A simple React application that allows users to dynamically add items to a list.
 
 ## Features
 - Add items to the list by typing and pressing Enter or clicking the "Add Item" button.
 - Styled UI with a clean design.
 - Responsive and accessible.
-- Toast notifications for feedback.
 
 ## Installation
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/raphachegeke/dynamic-list-manager.git
+   git clone https://github.com/ann738/dynamicList.git
    cd dynamic-list-manager
 
 2. Install dependencies:
     ```sh
      npm install
 
-
-
-## Usage
-
-1. Run the application in development mode:
-    ```sh
-    npm start
-
-2. Then open http://localhost:3000 to view it in the browser.
-
-
-## Technologies Used
-    
-    React.js
-    CSS
-
-
-## Future Improvements
-
-Add delete functionality for items.
-
-Implement persistent storage using localStorage.
-
 ---
 
-Developed with ❤️ by Rapha Chege Kamunu
+Developed by Ann Wanjiru
